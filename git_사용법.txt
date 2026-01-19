@@ -1,7 +1,7 @@
 git 사용법
 git init : 현재 working directory를 git으로 관리하도록 초기설정 세팅하기
 git add "xxxxxxx" : 원하는 항목을 git에 관리하도록 버전 변동사항 추적하기
-git commit -m "xxxxxxx"
+git commit -m "xxxxxxx" : 변동사항을 관리되는 버전 중 하나로 저장하기
 
 git config --list
 git config --global user.email "xxxx@gmail.com"
@@ -11,5 +11,5 @@ code ~/.gitconfig
 git log
 git status
 
-git remote add origin "xxxxxx/xxxxxxx.git"
-git push -u origin main
+git remote add origin "xxxxxx/xxxxxxx.git" : 로컬 레포지토리를 원격 저장소와 연결
+git push -u origin main : 로컬 레포지토리에 있던 변경사항들을 원격 저장소에 연동하기
