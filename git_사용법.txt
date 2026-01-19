@@ -1,0 +1,15 @@
+git 사용법
+git init : 현재 working directory를 git으로 관리하도록 초기설정 세팅하기
+git add "xxxxxxx" : 원하는 항목을 git에 관리하도록 버전 변동사항 추적하기
+git commit -m "xxxxxxx"
+
+git config --list
+git config --global user.email "xxxx@gmail.com"
+git config --global user.name "xxxx"
+code ~/.gitconfig
+
+git log
+git status
+
+git remote add origin "xxxxxx/xxxxxxx.git"
+git push -u origin main
