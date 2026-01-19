@@ -13,3 +13,8 @@ git status
 
 git remote add origin "xxxxxx/xxxxxxx.git" : 로컬 레포지토리를 원격 저장소와 연결
 git push -u origin main : 로컬 레포지토리에 있던 변경사항들을 원격 저장소에 연동하기
+
+git init
+git remote add origin "xxxxxx/xxxxx.git"
+git pull origin master
+git clone "xxxxx/xxxxx.git"
